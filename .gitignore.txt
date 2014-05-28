@@ -7,3 +7,4 @@
 /app/logs/dev.log
 /vendor/
 /app/config/parameters.yml
+.idea/
