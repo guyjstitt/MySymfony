@@ -1,0 +1,9 @@
+/app/bootstrap*
+/app/cache/*
+**/cache
+/cache**
+/app/cache/dev/profiler/*
+/app/logs/
+/app/logs/dev.log
+/vendor/
+/app/config/parameters.yml
