@@ -1,0 +1,177 @@
+body {
+	background-color: w;
+}
+
+.header-fixed{
+	background-color: #AA1801;
+}
+.navbar-default{
+	border-color: darkred;
+}
+#footer{
+	position: inline;
+	background-color:  #e3e3e3;
+	margin-top: 5%;
+}
+
+
+h1, h2,.h1 .h2 {
+    margin-top: 0px;
+    font-family: "Rokkitt", serif;
+    font-weight: bold;
+    color:black;
+
+}
+p,.p {
+    color: black;
+    font-size: 15pt;
+}
+
+.ul-left
+{
+    list-style-type: none;
+    color: black;
+    font-size: 16pt;
+    float:left;
+
+
+
+}
+.ul-right
+{
+    list-style-type: none;
+    color: black;
+    font-size: 16pt;
+    float: right;
+}
+.my-li
+{
+    border-style: solid;
+    border-width: 2px;
+    background-color: #AA1801;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+ul {
+    margin-left: 0; padding: 0;
+    margin-bottom: 10px;
+
+}
+
+ul li .title
+{
+margin-bottom: 10px;
+}
+.headerTitle
+ {
+     padding: 0px 8px;
+     display: inline-block;
+     position: relative;
+     border-style: solid;
+     border-color: transparent;
+     border-width: 0px;
+     background-color: #AA1801;
+     text-transform: uppercase;
+     margin-top: 15%;
+
+ }
+
+.my-label {
+
+    padding: 0 0px;
+    border-width: 0 0 4px 0;
+    border-style: solid;
+    border-color: #AA1801;
+}
+
+.title
+{
+    padding: 0px 8px;
+    display: inline-block;
+    position: relative;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px;
+    background-color: #AA1801;
+    text-transform: uppercase;
+
+}
+.title::after
+{
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: -0.5em;
+    border-left-width: 0.45em;
+    border-left-color: #AA1801;
+    border-left-style: solid;
+    border-bottom: 0.5em solid transparent;
+
+}
+.value
+{
+    font-style: italic;
+    margin-left: 5px;
+}
+
+.facebook {
+text-indent: -9999px;
+display: inline-block;
+height: 44px;
+background: url(facebook-sprite.png);
+background-repeat:no-repeat;
+
+}
+
+.facebook:hover, .logo:focus{
+background-position: 0 -44px;
+}
+.connect{
+margin: 5%;
+}
+
+.active {
+background-color: #AA1801; 
+}
+
+.crop {
+height: 400px;	
+overflow:hidden;
+max-width: 350px;
+}
+
+.crop img {
+height: auto;
+width:350px;
+overflow:hidden;
+}
+
+ul.nav.navbar-nav li{
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: dark-gray;
+}
+ul.nav.navbar-nav li a{
+    color: white;
+    font-size: 12pt;
+}
+
+span.title{
+    color:white;
+}
+
+a.navbar-brand {
+    color: white !important;
+}
+
+div.border-bottom {
+    border-bottom-style: solid;
+    border-color: light-gray;
+}
+
+.ul-left{
+    margin-bottom: 20px;
+}
+.box {
+   max-width: 80%;
+}

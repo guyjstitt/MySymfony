@@ -145,7 +145,7 @@ margin-bottom: 10px;
 .navbar-default {
     background-color: black;
     border-color: blue;
-	margin-top: 3%;
+	
 
 	
 }
@@ -183,4 +183,18 @@ margin-left: 0%;
 margin-right: 0;
 margin-left: 0;
 padding-left: 9.5%;
+background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+border-color: #ddd;
+
+
+}
+
+.navbar-nav {
+
+margin: 0;
+position: absolute;
+top: 60px;
 }
