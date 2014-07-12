@@ -115,21 +115,73 @@ margin-bottom: 10px;
 }
 
 .facebook {
+float: left;
 text-indent: -9999px;
 display: inline-block;
-height: 44px;
-background: url(facebook-sprite.png);
+height: 84px;
+width: 84px;
+background: url(social-sprites.png);
 background-repeat:no-repeat;
 
 }
 
 .facebook:hover, .logo:focus{
-background-position: 0 -44px;
-}
-.connect{
-margin: 5%;
+background-position: 0 -84px;
 }
 
+.linkedin {
+float: left;
+text-indent: -9999px;
+display: inline-block;
+height: 84px;
+width: 84px;
+background: url(social-sprites.png) -336px 0px;
+background-repeat:no-repeat;
+
+}
+
+.linkedin:hover, .logo:focus{
+background-position: -336px -84px;
+}
+
+.twitter {
+float: left;
+text-indent: -9999px;
+display: inline-block;
+height: 84px;
+width: 84px;
+background: url(social-sprites.png) -672px 0px;
+background-repeat:no-repeat;
+
+}
+
+.twitter:hover, .logo:focus{
+background-position: -672px -84px;
+}
+
+.google {
+float: left;
+text-indent: -9999px;
+display: inline-block;
+height: 84px;
+width: 84px;
+background: url(social-sprites.png) -252px 0px;
+background-repeat:no-repeat;
+
+}
+
+.google:hover, .logo:focus{
+background-position: -252px -84px;
+}
+
+
+div.connect ul li{
+margin-bottom: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
 .active {
 background-color: #AA1801; 
 }
@@ -149,7 +201,7 @@ overflow:hidden;
 ul.nav.navbar-nav li{
     border-right-style: solid;
     border-right-width: 1px;
-    border-right-color: dark-gray;
+    border-right-color: black;
 }
 ul.nav.navbar-nav li a{
     color: white;
@@ -164,9 +216,12 @@ a.navbar-brand {
     color: white !important;
 }
 
-div.border-bottom {
-    border-bottom-style: solid;
-    border-color: light-gray;
+.border-bottom {
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+    border-color: #eee;
+    margin-bottom: 15%;
+
 }
 
 .ul-left{
@@ -174,4 +229,8 @@ div.border-bottom {
 }
 .box {
    max-width: 80%;
+}
+.nav-button-left{
+    border-left: 1px solid black;
+
 }
