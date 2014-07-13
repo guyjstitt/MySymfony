@@ -32,7 +32,7 @@ p,.p {
     list-style-type: none;
     color: black;
     font-size: 16pt;
-    float:left;
+    clear:left;
 
 
 
@@ -54,7 +54,7 @@ p,.p {
 }
 ul {
     margin-left: 0; padding: 0;
-    margin-bottom: 10px;
+ 
 
 }
 
@@ -122,7 +122,9 @@ height: 84px;
 width: 84px;
 background: url(social-sprites.png);
 background-repeat:no-repeat;
-
+border: 1px solid #eee;
+background-color: rgba(55, 55, 55, 0.1);
+margin-right: 5px;
 }
 
 .facebook:hover, .logo:focus{
@@ -137,7 +139,9 @@ height: 84px;
 width: 84px;
 background: url(social-sprites.png) -336px 0px;
 background-repeat:no-repeat;
-
+border: 1px solid #eee;
+background-color: rgba(55, 55, 55, 0.1);
+margin-right: 5px;
 }
 
 .linkedin:hover, .logo:focus{
@@ -152,7 +156,9 @@ height: 84px;
 width: 84px;
 background: url(social-sprites.png) -672px 0px;
 background-repeat:no-repeat;
-
+border: 1px solid #eee;
+background-color: rgba(55, 55, 55, 0.1);
+margin-right: 5px;
 }
 
 .twitter:hover, .logo:focus{
@@ -167,7 +173,9 @@ height: 84px;
 width: 84px;
 background: url(social-sprites.png) -252px 0px;
 background-repeat:no-repeat;
-
+border: 1px solid #eee;
+background-color: rgba(55, 55, 55, 0.1);
+margin-right: 5px;
 }
 
 .google:hover, .logo:focus{
@@ -175,9 +183,7 @@ background-position: -252px -84px;
 }
 
 
-div.connect ul li{
-margin-bottom: 10px;
-}
+
 
 ul{
     list-style-type: none;
@@ -228,9 +234,11 @@ a.navbar-brand {
     margin-bottom: 20px;
 }
 .box {
-   max-width: 80%;
+  
 }
 .nav-button-left{
     border-left: 1px solid black;
 
 }
+
+.connect {
