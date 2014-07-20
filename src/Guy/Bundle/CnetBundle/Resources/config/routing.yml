@@ -2,6 +2,10 @@ guy_cnet_homepage:
     pattern:  /Home
     defaults: { _controller: GuyCnetBundle:Default:index }
 
-guy_cnet_portfolio:
-    pattern:  /Portfolio
-    defaults: { _controller: GuyCnetBundle:Portfolio:index }
+guy_cnet_about:
+    pattern:  /About
+    defaults: { _controller: GuyCnetBundle:About:index }
+
+guy_cnet_contact:
+    pattern:  /Resume
+    defaults: { _controller: GuyCnetBundle:Resume:index }

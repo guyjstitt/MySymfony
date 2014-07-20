@@ -16,7 +16,88 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
+{% block header %}
+
+               <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top header-fixed" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/MySymfony/web/app_dev.php/Home">My Website</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="nav-button-left"><a href="/MySymfony/web/app_dev.php/Home">Home</a></li>
+            <li><a href="/MySymfony/web/app_dev.php/About">About</a></li>
+            <li><a href="/MySymfony/web/app_dev.php/Resume">Resume</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+{% endblock %}
+
+{% block body %}
+    <!-- Begin page content -->
+    <div class="container">
+      <div class="page-header">
+        <h1>Welcome to My Page!</h1>
+      </div>
+      <div class="row border-bottom">
+
+    <div class=" col-md-3 my-images crop">
+    <img class="img-responsive" src="/MySymfony/web/bundles/images/profile.jpg" alt="profile picture">
+    </div>
+
+    <div class ="col-md-4 box">
+        <h2>...an Accomplished <span class="my-label">Web Developer</span> and Manager</h2>
+
+        <p> I am currently a Senior at the University of Louisville majoring in Computer Information Systems, with a concentration in Web-Development. I'm employed at CBSi and Restorative Justice Louisville as a Web Developer</p>
+        <h2>Connect with me!</h2>
+     
+        <ul class ="social">
+          <li><a href="https://www.facebook.com/guyjstitt" class = "facebook" target = "_blank"> facebook sprite </a></li>
+          <li><a href="https://twitter.com/GuyjStitt" class = "twitter" target ="_blank">twitter sprite</a></li>
+          <li><a href="https://plus.google.com/106859996232584782611/posts" class = "google" target ="_blank">google sprite</a></li>
+          <li><a href="http://www.linkedin.com/pub/guy-stitt/43/472/146" class = "linkedin" target ="_blank">linkedin sprite</a></li>
+          
+        </ul>
+       
+    </div>
+
+
+     <div class ="col-md-4">
+
+
+         <ul class="ul-left tags">
+             <li ><span class ="title">Name</span> <span class="value"> Guy J. Stitt</span></li>
+             <li ><span class ="title"> Age</span> <span class="value"> 21</span></li>
+             <li ><span class ="title"> City</span> <span class="value"> Louisville</span></li>
+             <li ><span class ="title"> State</span> <span class="value"> Kentucky</span></li>
+             <li ><span class ="title"> Phone</span> <span class="value"> 502-333-4283</span></li>
+         </ul>
+
+       
+
+
+     </div>
+     </div>
+
+    </div>
+{% endblock %}
+
+{% block footer %}
+        <div id="footer">
+      <div class="container">
+        <p class="text-muted">Follow me on <a href="https://www.facebook.com/guyjstitt" target = "_blank"> Facebook</a>, <a href="https://twitter.com/GuyjStitt" target ="_blank">Twitter</a>, <a href="https://plus.google.com/106859996232584782611/posts" target ="_blank">Google+</a> and <a href="http://www.linkedin.com/pub/guy-stitt/43/472/146"target ="_blank">Linkedin!</a></p>
+      </div>
+    </div>
+{% endblock %}
         {% block javascripts %}
             <script src="{{ asset("https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js") }}" type="text/javascript"></script>
             <script src="{{ asset('bundles/js/bootstrap.min.js') }}" type="text/javascript"></script>
